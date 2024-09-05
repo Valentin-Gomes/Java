@@ -5,6 +5,7 @@
 package com.mycompany.projeto_12_valentin;
 
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class PROJETO_12_VALENTIN {   
@@ -19,8 +20,9 @@ public class PROJETO_12_VALENTIN {
     public static String escolherFilme(){  
         Scanner ler = new Scanner(System.in);
         
-        System.out.println("Jogador 1 - Digite o nome do filme: ");
-        String nomeFilme = ler.nextLine();
+            System.out.println("Jogador 1 - Digite o nome do filme: ");
+            String nomeFilme = ler.nextLine();
+        
         
         return nomeFilme;
     }
