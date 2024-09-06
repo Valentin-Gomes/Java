@@ -18,6 +18,10 @@ public class PROJETO_14_VALENTIN {
         int somaLinha[] = new int [5];
         int somaDiagonalUm[] = new int [5];
         int somaDiagonalDois[] = new int [5];
+        int somaUm = 0;
+        int somaDois = 0;
+        int cUm = 4;
+        int cDois = 4;
         String s = "";
         DataInputStream dado;
         
@@ -62,10 +66,27 @@ public class PROJETO_14_VALENTIN {
         System.out.println(" ");
         
         for(int l = 0; l < 5; l++){
-            for(int c = 4; c >= 0; c--){
-                somaDiagonalUm[l] = num[l][c];
-            }  
+            somaDiagonalUm[l] = num[l][cUm];
+            cUm--; 
         }
+        
+        for(int l = 0; l < 5; l++){
+            somaDiagonalDois[l] = num[cDois][l];
+            cDois--; 
+        }
+        
+        for(int l = 0; l < 5; l++){
+            somaUm = somaUm + somaDiagonalUm[l];
+        }
+        
+        for(int l = 0; l < 5; l++){
+            somaDois = somaDois + somaDiagonalDois[l];
+        }
+        
+        System.out.println(" Soma da diagoal Um " + somaUm);
+        System.out.println(" ");
+        System.out.println(" Soma da diagoal Dois " + somaDois);
+        
         
         System.out.println(" ");
     }
