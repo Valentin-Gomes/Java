@@ -20,7 +20,7 @@ public class PROJETO_13_VALENTIN {
         int operacao = 0;
         
         int y = 0;
-        float resultados[] = new float [y];
+        float resultados[] = new float [valores.length];
         int cancelar = 1;     
         
         
@@ -57,26 +57,26 @@ public class PROJETO_13_VALENTIN {
             
             switch (operacao){
                 case (1):
-                    resultados[y] = escolhaUm + escolhaDois;
+                    resultados[y] = valores[escolhaUm] - valores[escolhaDois];
                     System.out.println("Resultado: "+ resultados[y]);
                     y++;
                 break;
                 
                 case (2):
-                    resultados[y] = escolhaUm - escolhaDois;
+                    resultados[y] = valores[escolhaUm] - valores[escolhaDois];
                     System.out.println("Resultado: "+ resultados[y]);
                     y++;
                 break;
                 
                 case (3):
-                    resultados[y] = escolhaUm * escolhaDois;
+                    resultados[y] = valores[escolhaUm] - valores[escolhaDois];
                     System.out.println("Resultado: "+ resultados[y]);
                     y++;
                 break;
                 
                 case (4):
                 try{
-                    resultados[y] = escolhaUm / escolhaDois;
+                    resultados[y] = valores[escolhaUm] - valores[escolhaDois];
                     System.out.println("Resultado: "+ resultados[y]);
                     y++;
                   } catch (ArithmeticException e5){
