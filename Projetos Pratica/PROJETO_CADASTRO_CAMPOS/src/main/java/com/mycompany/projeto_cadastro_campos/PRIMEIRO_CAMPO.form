@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jbtn_salvar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="163" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="69" max="32767" attributes="0"/>
+              <Component id="jbtn_salvar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jlbl_titulo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
+                          <Component id="jlbl_estrutura_mecanica" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="142" max="-2" attributes="0"/>
+                          <Component id="jlbl_motor" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                  <Component id="jlbl_luzes_dianteiras" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jlbl_luzes_taseiras" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_luz_freio" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_pisca_alerta" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jtxtf_telefone" alignment="1" max="32767" attributes="0"/>
+                              <Component id="jtxtf_cpf" alignment="1" max="32767" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jlbl_sistema_hidraulico" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jtxtf_nome" alignment="0" min="-2" pref="208" max="-2" attributes="0"/>
+                                      <Component id="jlbl_sistema_eletrico" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="54" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jlbl_pneu_traseiro" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_limpeza_radiador" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_vazamento_motor" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_oleo_motor" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_lubrificacao_folga" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_deformacao_lataria" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_deformacao_estrutura" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_apresenta_trinca" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_oleo_transmissao" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_mangueira_direcao" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_mangueira_lanca" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_cilindro_inclinacao" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_cilindro_elevacao" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_vazamento_oleo" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_mangueiras_geral" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_nivel_oleo_hidraulico" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_buzina" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_sistema_partida" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_alarme_re" min="-2" max="-2" attributes="0"/>
+                              <Component id="jlbl_giroflex" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                  <Component id="jlbl_pneus" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbl_nivel_agua" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jlbl_pneu_dianteiro" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_titulo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  <Component id="jlbl_sistema_eletrico" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jlbl_luzes_dianteiras" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jtxtf_nome" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jtxtf_telefone" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbl_luzes_taseiras" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jtxtf_cpf" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlbl_luz_freio" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_pisca_alerta" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_giroflex" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_alarme_re" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_sistema_partida" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_buzina" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  <Component id="jlbl_sistema_hidraulico" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_nivel_oleo_hidraulico" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_mangueiras_geral" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_vazamento_oleo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_cilindro_elevacao" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_cilindro_inclinacao" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_mangueira_lanca" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_mangueira_direcao" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_oleo_transmissao" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_estrutura_mecanica" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                  <Component id="jlbl_apresenta_trinca" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_deformacao_estrutura" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_deformacao_lataria" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_lubrificacao_folga" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_motor" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_oleo_motor" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_vazamento_motor" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_limpeza_radiador" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_nivel_agua" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_pneus" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_pneu_dianteiro" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlbl_pneu_traseiro" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="16" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jlbl_luzes_dianteiras">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Luzes Dianteiras"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtxtf_nome">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtxtf_nomeActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_luzes_taseiras">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Luzes Traseiras"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtxtf_telefone">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_pisca_alerta">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pisca Alerta"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtxtf_cpf">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_titulo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="CHECKLIST P&#xc1; CARREGADEIRA"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_sistema_eletrico">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SISTEMA EL&#xc9;TRICO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_luz_freio">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Luz de Freio"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_giroflex">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Giroflex"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_alarme_re">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Alarme de R&#xe9;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_sistema_partida">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sistema de partida"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_buzina">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Buzina"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_sistema_hidraulico">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SISTEMA HIDR&#xc1;ULICO"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_nivel_oleo_hidraulico">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="N&#xed;vel &#xd3;leo Hidr&#xe1;ulico"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_mangueiras_geral">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mangueiras em Geral"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_vazamento_oleo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Vazamento de &#xd3;leo"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_cilindro_elevacao">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cilindro de eleva&#xe7;&#xe3;o"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_cilindro_inclinacao">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cilindro de Inclina&#xe7;&#xe3;o"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_mangueira_lanca">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mangueira da Lan&#xe7;a"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_mangueira_direcao">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Mangueira do Cilindro da Dire&#xe7;&#xe3;o"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_oleo_transmissao">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="N&#xed;vel &#xd3;leo Transmiss&#xe3;o"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_estrutura_mecanica">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ESTRUTURA MEC&#xc2;NICA"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_apresenta_trinca">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Apresenta Trincas"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_deformacao_estrutura">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Apresenta Deforma&#xe7;&#xe3;o na Estrutura"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_deformacao_lataria">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Apresenta Deforma&#xe7;&#xe3;o na Lataria"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_lubrificacao_folga">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lubrifica&#xe7;&#xe3;o, Pinos, Articula&#xe7;&#xe3;o e Poss&#xed;veis Folgas"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_motor">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="MOTOR"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_oleo_motor">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="N&#xed;vel &#xd3;leo de motor"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_vazamento_motor">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Vazamento no Motor"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_limpeza_radiador">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Limpeza do Radiador"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_nivel_agua">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="N&#xed;vel de &#xe1;gua do Reservat&#xf3;rio"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_pneus">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="PNEUS"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_pneu_dianteiro">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calibra&#xe7;&#xe3;o e Conserva&#xe7;&#xe3;o Pneu Dianteiro "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlbl_pneu_traseiro">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calibra&#xe7;&#xe3;o e Conserva&#xe7;&#xe3;o Pneu Traseiro"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jbtn_salvar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SALVAR"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtn_salvarActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
